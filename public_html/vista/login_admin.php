@@ -37,7 +37,10 @@ require_once("../config/class_crud.php");
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  
+
+	<!-- Base href: necesario porque esta vista también se sirve desde la raíz (index.php) -->
+	<base href="/vista/">
+
 	<!-- Metas Bootstrap -->
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
