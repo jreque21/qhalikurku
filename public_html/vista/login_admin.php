@@ -111,10 +111,6 @@ require_once("../config/class_crud.php");
 				</div>
 			</div>
 		</div>
-		<div class="back-to-student">
-			<i class="fa fa-arrow-left"></i>
-			<a href="../../"> Volver al inicio </a>
-		</div>
 	</div>
 	<!-- /container -->
     <script src="../recursos/js/jquery.validate.min.js"></script>
