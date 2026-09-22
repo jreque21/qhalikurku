@@ -10,9 +10,9 @@ class baseDatos
 	
 	/* Propiedades de la clase */
 	private static	$bd_servidor = 'localhost';
-	private static	$bd_usuario  = 'jmtalentgroup_centro_admin';
-	private static 	$bd_clave    = '#Limaperu21';
-	protected 		$bd_nombre   = 'jmtalentgroup_centro_bd';
+	private static	$bd_usuario  = 'qhalikurku_admin';
+	private static 	$bd_clave    = 'Chimboteperu21';
+	protected 		$bd_nombre   = 'qhalikurku_bd';
 	protected		$rows        =  array();
 	private	   		$con;
 	
