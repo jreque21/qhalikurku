@@ -1,0 +1,158 @@
+/* ============================================
+   Login Administrador - Centro Terapéutico
+   ============================================ */
+
+:root{
+	--ct-teal: #0e9594;
+	--ct-teal-dark: #0a6f6e;
+	--ct-dark: #16202a;
+	--ct-dark-2: #1e2b38;
+}
+
+html, body{
+	height: 100%;
+}
+
+body{
+	background: linear-gradient(160deg, var(--ct-dark) 0%, var(--ct-dark-2) 55%, #10171f 100%) !important;
+	background-attachment: fixed !important;
+	min-height: 100vh;
+}
+
+.login-form{
+	margin: 6% auto 0;
+	max-width: 420px;
+}
+
+.form-header,
+.form-footer{
+	background-color: #fff;
+	border: none;
+}
+
+.form-signin{
+	padding: 10px 35px 40px;
+	background-color: #fff;
+	border: none;
+}
+
+.form-header{
+	text-align: center;
+	padding: 38px 30px 26px;
+	border-radius: 10px 10px 0 0;
+}
+
+.admin-badge{
+	width: 84px;
+	height: 84px;
+	margin: 0 auto 16px;
+	border-radius: 50%;
+	background: #fff;
+	border: 2px solid var(--ct-teal);
+	box-shadow: 0 4px 14px rgba(0,0,0,.12);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+.admin-badge i{
+	font-size: 28px;
+	color: var(--ct-teal);
+	margin: 0;
+}
+.admin-badge img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	margin: 0;
+}
+
+.form-header h4{
+	margin: 0;
+	font-weight: 700;
+	letter-spacing: .5px;
+	text-transform: uppercase;
+	color: var(--ct-dark);
+	font-size: 18px;
+}
+.form-header small{
+	display: block;
+	margin-top: 4px;
+	color: #8a97a3;
+	font-size: 12.5px;
+}
+
+.form-signin label{
+	font-weight: 600;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: .3px;
+	color: #6b7178;
+}
+
+.form-signin .form-control{
+	position: relative;
+	height: auto;
+	box-sizing: border-box;
+	padding: 11px 14px;
+	font-size: 14.5px;
+	border: 1px solid #dfe3e7;
+	border-radius: 6px;
+	margin-bottom: 18px;
+}
+.form-signin .form-control:focus{
+	border-color: var(--ct-teal);
+	box-shadow: 0 0 0 3px rgba(14,149,148,.15);
+	z-index: 2;
+}
+
+.bt-login{
+	background-color: var(--ct-teal);
+	color: #ffffff;
+	padding: 12px 0;
+	border: none;
+	border-radius: 6px;
+	font-weight: 700;
+	letter-spacing: .3px;
+	text-transform: uppercase;
+	font-size: 13px;
+	transition: background-color 200ms ease;
+}
+.bt-login:hover,
+.bt-login:focus{
+	background-color: var(--ct-teal-dark);
+	color: #fff;
+}
+
+.form-footer{
+	padding: 16px 30px;
+	border-radius: 0 0 10px 10px;
+	font-size: 13px;
+	color: #8a97a3;
+	border-top: 1px solid #f0f1f2;
+}
+.form-footer a{
+	color: var(--ct-teal-dark);
+	font-weight: 600;
+}
+.form-footer i{ margin-right: 6px; color: var(--ct-teal); }
+
+.back-to-student{
+	text-align: center;
+	padding: 14px 20px 0;
+	font-size: 13px;
+}
+.back-to-student a{
+	color: #cfd8e0;
+	font-weight: 600;
+}
+.back-to-student a:hover{ color: #fff; }
+.back-to-student i{ margin-right: 6px; color: var(--ct-teal); }
+
+.has-error{ color: #e74c3c !important; }
+.has-success{ color: #0e9594 !important; }
+.has-error input{ border: 1px solid #e74c3c !important; }
+.has-success input{ border: 1px solid #0e9594 !important; }
+
+.message_success{ background-color: #0e9594; color: #fff; padding: 12px 16px; border-radius: 6px; margin-bottom: 18px; }
+.message_error{ background-color: #e74c3c; color: #fff; padding: 12px 16px; border-radius: 6px; margin-bottom: 18px; }

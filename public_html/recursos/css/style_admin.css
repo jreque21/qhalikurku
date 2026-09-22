@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*===============================================================*
+ * Estilo de Página
+ *===============================================================*/
+
+.box-header {
+  color:#fff;
+  background-color: #3C8DBC;
+}
+
+.enlace_desactivado {
+pointer-events: none;
+cursor: default;
+}
+
+
