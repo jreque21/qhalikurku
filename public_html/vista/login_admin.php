@@ -11,14 +11,14 @@ require_once("../config/class_crud.php");
 			$user_obj = new usuario();
 			$data = $user_obj->f_usuario_login( $_POST );
 			if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']){
-				header('Location: panel_admin.php');
+				header('Location: /vista/panel_admin.php');
 			}
 		} catch (Exception $e) {
 			$error = $e->getMessage();
 		}
 	}
 	if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']){
-		header('Location: panel_admin.php');
+		header('Location: /vista/panel_admin.php');
 	}
 
 	// Logo de la empresa (el mismo configurado en Mantenimiento > Empresa).
